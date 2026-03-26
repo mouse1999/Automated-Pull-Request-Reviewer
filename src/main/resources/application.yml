@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: ai-pr-reviewer
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY} # Set this in your Environment Variables
+      chat:
+        options:
+          model: gpt-4-turbo # Or gpt-3.5-turbo
+
+github:
+  api:
+    token: ${GITHUB_PAT} # Your Personal Access Token or App Token
+  webhook:
+    secret: ${GITHUB_WEBHOOK_SECRET} # The password you set in GitHub Webhook settings,
+
+logging:
+  level:
+    com.mouse: DEBUG
+    org.springframework.web: INFO
+
+
