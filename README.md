@@ -90,8 +90,8 @@ spring:
 ### 1. Clone and Configure
 
 ```bash
-git clone https://github.com/mouse1999/nexus-agentic-commerce.git
-cd nexus-agentic-commerce
+git clone https://github.com/mouse1999/Automated-Pull-Request-Reviewer.git
+cd Automated-Pull-Request-Reviewer
 ```
 
 ### 2. Generate Your Webhook Secret
@@ -193,7 +193,7 @@ The system includes a specialized `DiffParser` that converts Git patches into `C
 
 ## 🗺️ Roadmap & Future Enhancements
 
-The vision for **Nexus Agentic** is to move beyond simple code comments toward a fully autonomous "AI Teammate." The following features are planned for future releases:
+The vision is to move beyond simple code comments toward a fully autonomous "AI Teammate." The following features are planned for future releases:
 
 ### 🛠️ Phase 1: Technical Core (Next Steps)
 * **Multi-Model Support:** Integrate **Ollama** for local LLM inference and **Google Gemini** via Spring AI to compare review quality across different models.
